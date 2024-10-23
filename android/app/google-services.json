@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162244598463",
+    "project_id": "ktgk-b761a",
+    "storage_bucket": "ktgk-b761a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162244598463:android:5be657c84fe6d34f94c40a",
+        "android_client_info": {
+          "package_name": "com.lab4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlStIeclSIYSu-PsNNyOqMJQDMpjUiJAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

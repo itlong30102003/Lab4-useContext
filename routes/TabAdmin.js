@@ -3,6 +3,7 @@ import Customer from "../screens/admin/Customer";
 import Setting from "../screens/admin/Setting";
 import Transaction from "../screens/admin/Transaction";
 import RouterHome from "./admin/RouterHome";
+import Profile from "../screens/Profile";
 const Tab = createMaterialBottomTabNavigator()
 const TabAdmin =()=>{
     return(

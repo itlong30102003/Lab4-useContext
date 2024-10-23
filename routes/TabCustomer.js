@@ -32,4 +32,4 @@ const TabCutomer =()=>{
         </Tab.Navigator>
     )
 }
-export default TabCutomer   ;
+export default TabCutomer;

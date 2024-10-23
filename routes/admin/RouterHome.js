@@ -3,8 +3,9 @@ import Service from "../../screens/admin/Service";
 import AddService from "../../screens/admin/AddService";
 import ServiceDetail from "../../screens/admin/ServiceDetail";
 import { useMyContextController } from "../../context";
-import { Avatar, IconButton } from "react-native-paper";
 import AddNewService from "../../screens/admin/AddService";
+import { Avatar } from "react-native-paper";
+import { TouchableOpacity } from "react-native";
 
 const Stack = createStackNavigator()
 
@@ -18,15 +19,21 @@ const RouterHome =({navigation})=>{
             screenOptions={{
                 title: userLogin.fullName!=null&& userLogin.fullName,
                 headerLeft:() => null,
-                headerRight:(props) => <Avatar.Icon icon={"account"} 
-                                                onPress={()=> navigation.Navigate("setting")} size={40}
-                                            style={{ 
-                                                backgroundColor:"white",
-                                                color:"black",
-                                                margin:10,
-                                                
+                headerRight: (props) => <TouchableOpacity
+                                            onPress={() => navigation.navigate("Profile")}
+                                            style={{
+                                                margin: 10,
                                             }}
-                                        />,
+                                        >
+                                            <Avatar.Icon
+                                                icon={"account"}
+                                                size={40}
+                                                style={{
+                                                    backgroundColor: "white",
+                                                    color: "black",
+                                                }}
+                                            />
+                                        </TouchableOpacity>,
                 headerStyle:{
                     backgroundColor:"pink",
                 },
